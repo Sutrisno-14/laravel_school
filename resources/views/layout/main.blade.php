@@ -27,7 +27,7 @@
         <!-- Preloader -->
         {{-- animasi gerak main --}}
         {{-- <div class="preloader flex-column justify-content-center align-items-center">
-            <img class="animation__wobble" src="{{ asset('adminLte/dist/img/logo1.png') }}" alt="Logo" height="100" width="100">
+            <img class="animation__wobble" src="{{ asset('adminLte/dist/img/admin.png') }}" alt="Logo" height="100" width="100">
         </div> --}}
 
         @include('partials.navbar')
