@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
 
 
 class studentSeeder extends Seeder
@@ -23,7 +24,7 @@ class studentSeeder extends Seeder
             "nim"=>"06183070",
             "role_id"=>"3",
             "email"=>"ridho@gmail.com",
-            "password"=>"12345"
+            "password"=> Hash::make('password')
          ]);
     }
 }

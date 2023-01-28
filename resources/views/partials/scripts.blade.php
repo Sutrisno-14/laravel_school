@@ -1,4 +1,3 @@
-
 <!-- REQUIRED SCRIPTS -->
 <!-- jQuery -->
 <script src="{{ asset('adminLte/plugins/jquery/jquery.min.js') }}"></script>
