@@ -29,5 +29,4 @@ Route::controller(StudentsController::class)->group(function () {
     Route::get('/formUpdate/{id}', 'formUpdate')->name('formUpdate');
     Route::post('/updateStudent/{id}', 'updateStudent')->name('updateStudent');
     Route::get('/deleteStudent/{id}', 'deleteStudent')->name('deleteStudent');
-    // Route::get('/listMenu', 'listMenu')->name('listMenu');
 });
